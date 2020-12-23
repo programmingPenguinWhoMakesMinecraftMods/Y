@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.programmingpenguin.prgpengsuite.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ModMixins"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "enum=1,facing=north": { "model": "vus:block/test" },
+    "enum=1,facing=east":  { "model": "vus:block/test", "y":  90},
+    "enum=1,facing=south": { "model": "vus:block/test", "y": 180 },
+    "enum=1,facing=west":  { "model": "vus:block/test", "y": 270 },
+    "enum=2,facing=north": { "model": "vus:block/test1" },
+    "enum=2,facing=east":  { "model": "vus:block/test1", "y":  90},
+    "enum=2,facing=south": { "model": "vus:block/test1", "y": 180 },
+    "enum=2,facing=west":  { "model": "vus:block/test1", "y": 270 },
+    "enum=3,facing=north": { "model": "vus:block/test2" },
+    "enum=3,facing=east":  { "model": "vus:block/test2", "y":  90},
+    "enum=3,facing=south": { "model": "vus:block/test2", "y": 180 },
+    "enum=3,facing=west":  { "model": "vus:block/test2", "y": 270 },
+    "enum=4,facing=north": { "model": "vus:block/test3" },
+    "enum=4,facing=east":  { "model": "vus:block/test3", "y":  90},
+    "enum=4,facing=south": { "model": "vus:block/test3", "y": 180 },
+    "enum=4,facing=west":  { "model": "vus:block/test3", "y": 270 }
+  }
+}

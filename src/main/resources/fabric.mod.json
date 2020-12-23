@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "prgpengsuite",
+  "version": "1.0.0",
+
+  "name": "VCND's Ultimate Suite - Edition 1.0",
+  "description": "This is a mod that basically contains VCND - VerifiedFakeBot stayhomo's ideas that he could be bothered about making",
+  "authors": [
+    "VCND - VerifiedFakeBot stayhomo"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.programmingpenguin.prgpengsuite.Main"
+    ],
+    "client": [
+      "net.programmingpenguin.prgpengsuite.client.ClientInitializer"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

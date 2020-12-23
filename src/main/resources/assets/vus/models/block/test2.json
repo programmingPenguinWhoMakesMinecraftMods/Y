@@ -1,0 +1,6 @@
+{
+  "parent": "vus:block/side",
+  "textures": {
+    "1": "minecraft:block/black_concrete"
+  }
+}
